@@ -1823,7 +1823,7 @@ a.btn {
           width: 24px; } }
       @media only screen and (max-width: 767px) {
         .header__burger:before, .header__burger:after {
-          background: #111029; } }
+          background: ; } }
     .header__burger:before {
       margin-bottom: 4px; }
       @media only screen and (max-width: 1279px) {
