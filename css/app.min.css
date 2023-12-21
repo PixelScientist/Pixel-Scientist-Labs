@@ -2694,28 +2694,6 @@ a.btn {
         display: none; } }
     .details__contact:hover {
       opacity: .85; }
-
-      .details__link {
-        position: absolute;
-        right: calc(50% - 585px);
-        bottom: 131px;
-        z-index: 2;
-        color: #4C40F7;
-        -webkit-transition: opacity .25s;
-        -o-transition: opacity .25s;
-        transition: opacity .25s; }
-        @media only screen and (max-width: 1365px) {
-          .details__link {
-            right: 82px; } }
-        @media only screen and (max-width: 1279px) {
-          .details__link {
-            bottom: 103px;
-            font-size: 16px; } }
-        @media only screen and (max-width: 767px) {
-          .details__link {
-            display: none; } }
-        .details__link:hover {
-          opacity: .85; }
   .details .owl-stage-outer {
     overflow: visible; }
   .details .owl-item {
