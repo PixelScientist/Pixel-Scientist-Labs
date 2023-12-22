@@ -1821,7 +1821,7 @@ a.btn {
       @media only screen and (max-width: 1279px) {
         .header__burger:before, .header__burger:after {
           width: 24px;
-          background: #4d42f7; } }
+          background: ; } }
       @media only screen and (max-width: 767px) {
         .header__burger:before, .header__burger:after {
           background:#4c40f7; } }
@@ -1836,7 +1836,7 @@ a.btn {
         .header__burger:after {
           margin-top: 2.5px; } }
     .header__burger_dark:before, .header__burger_dark:after {
-      background: #00113B; }
+      background:; }
     .header__burger:hover {
       opacity: .85; }
     .header__burger.active {
