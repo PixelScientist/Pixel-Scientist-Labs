@@ -247,3 +247,27 @@ AOS.init(); // parallax effect
     return false;
   });
 })();
+
+function submitForm() {
+    // Fetch form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const reason = document.getElementById('reason').value;
+    const message = document.getElementById('message').value;
+
+    // You can perform further validations here
+
+    // Create an object to store form data
+    const formData = {
+        name: name,
+        email: email,
+        reason: reason,
+        message: message
+    };
+
+    // You can now send this formData to your server or perform other actions
+    console.log(formData);
+
+    // Optional: Reset the form
+    document.getElementById('contactForm').reset();
+}
