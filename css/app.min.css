@@ -1820,7 +1820,8 @@ a.btn {
       transition: transform .25s, -webkit-transform .25s; }
       @media only screen and (max-width: 1279px) {
         .header__burger:before, .header__burger:after {
-          width: 24px; } }
+          width: 24px;
+          background: #4d42f7; } }
       @media only screen and (max-width: 767px) {
         .header__burger:before, .header__burger:after {
           background:#4c40f7; } }
