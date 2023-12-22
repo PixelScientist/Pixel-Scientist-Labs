@@ -267,10 +267,13 @@
                       <div class="contacts__text">+91 9019 469 569</div>
                     </a>
                   </div>
-                  <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
+                  <form action="https://formsubmit.co/db280319ddd3ce3feaee87bb1ea80e42" method="POST" class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_next" value="https://pixelscientist.netlify.app/thankyou.html">
                     <div class="contacts__field field">
                       <div class="field__wrap">
-                        <input class="field__input" type="text" name="name" placeholder="Name" />
+                        <input class="field__input" type="text" name="name" required placeholder="Name" />
                         <div class="field__icon">
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
                             <path fill-rule="evenodd" d="M8.5.875a4.5 4.5 0 0 0-4.5 4.5v2a4.5 4.5 0 1 0 9 0v-2a4.5 4.5 0 0 0-4.5-4.5zM6 5.375a2.5 2.5 0 1 1 5 0v2a2.5 2.5 0 1 1-5 0v-2zM3.547 12.25a1 1 0 0 0-.969-1.75A5 5 0 0 0 0 14.875v2a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-2a5 5 0 0 0-2.578-4.375 1 1 0 1 0-.969 1.75A3 3 0 0 1 15 14.875v1H2v-1a3 3 0 0 1 1.547-2.625z" fill="#111029"></path>
@@ -280,7 +283,7 @@
                     </div>
                     <div class="contacts__field field">
                       <div class="field__wrap">
-                        <input class="field__input" type="email" name="email" placeholder="Email" />
+                        <input class="field__input" type="email" name="email" required placeholder="Email" />
                         <div class="field__icon">
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17">
                             <path fill-rule="evenodd" d="M16.707.668a1 1 0 0 1 .238 1.033l-5 14.5a1 1 0 0 1-1.853.093l-3-6.5a1 1 0 0 1 .201-1.126l3-3a1 1 0 0 1 1.414 1.414L9.2 9.589l1.665 3.608 3.52-10.208-10.207 3.52 2.223 1.026a1 1 0 1 1-.838 1.816L1.081 7.283a1 1 0 0 1 .093-1.853l14.5-5a1 1 0 0 1 1.033.238z" fill="#4c40f7"></path>
@@ -290,7 +293,7 @@
                     </div>
                     <div class="contacts__field field">
                       <div class="field__wrap">
-                        <select class="field__select" name="question">
+                        <select class="field__select" name="subject" required placeholder="subject">
                           <option>Select</option>
                           <option>UX Strategy and Consulting</option>
                           <option>Website Design</option>
@@ -308,7 +311,7 @@
                     </div>
                     <div class="contacts__field field field_textarea">
                       <div class="field__wrap">
-                        <textarea class="field__textarea" name="message" placeholder="Message"></textarea>
+                        <textarea class="field__textarea" name="message" required placeholder="Message"></textarea>
                         <div class="field__icon">
                           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
                             <path fill-rule="evenodd" d="M.5 2.875a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.532l-2.2 2.64a1 1 0 0 1-1.536 0l-2.2-2.64H2.5a2 2 0 0 1-2-2v-10zm15 0h-13v10h4a1 1 0 0 1 .768.36L9 15.313l1.732-2.078a1 1 0 0 1 .768-.36h4v-10zm-12 3a1 1 0 0 1 1-1h9a1 1 0 1 1 0 2h-9a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9z" fill="#111029"></path>
@@ -318,7 +321,7 @@
                     </div>
                     <div class="contacts__btn">
                       <button class="btn btn_purple">
-                        <span class="btn__text">Let’s Talk</span>
+                        <span class="btn__text" type="submit">Let’s Talk</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16">
                           <path fill-rule="evenodd" d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z" fill="#fff"></path>
                         </svg>
