@@ -2507,11 +2507,11 @@ a.btn {
 }
 
 .header__social .header__link:hover {
-	color: #111029;
+	color: #4c40f7;
 }
 
 .header__social .header__link:hover path {
-	fill: #111029;
+	fill: #4c40f7;
 }
 
 .header__social .header__link:not(:last-child) {
@@ -3078,7 +3078,7 @@ a.btn {
 }
 
 .main__wrap {
-	max-width: 490px;
+	max-width: 508px;
 }
 
 @media only screen and (max-width: 1279px) {
@@ -9776,7 +9776,7 @@ a.btn {
 }
 
 .main__wrap {
-	max-width: 490px
+	max-width: 508px
 }
 
 @media only screen and (max-width:1279px) {
