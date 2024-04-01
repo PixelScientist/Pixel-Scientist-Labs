@@ -234,16 +234,3 @@ AOS.init(); // parallax effect
     });
   }
 })(); // scroll to section
-
-
-(function () {
-  var btn = $('.js-scroll');
-  btn.click(function () {
-    $("html, body").animate({
-      scrollTop: $($(this).attr("href")).offset().top + "px"
-    }, {
-      duration: 1000
-    });
-    return false;
-  });
-})();
